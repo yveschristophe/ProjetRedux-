@@ -11,6 +11,7 @@ import CarteLocale from './CarteLocale';
 import './CarteLocale.css';
 import Jumbo from './Jumbo';
 import './Jumbo.css';
+import Footer from './Footer.js'
 
 
 
@@ -40,6 +41,7 @@ class CartesProduits extends Component {
         <CarteLocale/>
 
       </div>
+      <Footer />
       </div>
     );
   }

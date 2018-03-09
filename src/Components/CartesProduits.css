@@ -20,3 +20,27 @@
   padding: 0%;
   opacity: 0.5;
 }
+.theFooter{
+  background-color: rgb(243, 92, 102);
+  display: block;
+  padding-bottom: 0.5px;
+  margin-top: 10px;
+}
+.theFooterDiv{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.theFooterDivButton1{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+
+}
+.theFooterDivButton2{
+  margin-bottom: 5px;
+  color: white;
+}
+.hColor{
+  color: white;
+}
