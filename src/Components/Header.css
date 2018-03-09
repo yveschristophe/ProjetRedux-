@@ -1,5 +1,11 @@
-{
-  display: flex;
-  justify-content: space-between;
-  background-color: black;
+.navbar{
+	display: flex;
+	justify-content: space-between;
+  	background-color:black;
+  	border-bottom: 2px solid white;
+
+}
+.fa-shopping-basket{
+	padding-right: 10%;
+	color: white;
 }
