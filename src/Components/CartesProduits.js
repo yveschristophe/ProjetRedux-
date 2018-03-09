@@ -4,7 +4,14 @@ import {bindActionCreators} from 'redux';
 import data from './Data';
 import Card from '../Components/Card';
 import {connect} from 'react-redux';
+import Header from './Header';
+import './Header.css';
 import './CartesProduits.css';
+import CarteLocale from './CarteLocale';
+import './CarteLocale.css';
+import Jumbo from './Jumbo';
+import './Jumbo.css';
+
 
 
 
@@ -12,6 +19,9 @@ class CartesProduits extends Component {
   render() {
     console.log(this.props.Panier)
     return (
+      <div className="ContainMain">
+      <Header/>
+      <Jumbo/>
       <div className="CartesProduits">
       <h1>{this.props.Panier}</h1>
         <div className="row">
@@ -27,6 +37,9 @@ class CartesProduits extends Component {
           )
         })}
         </div>
+        <CarteLocale/>
+
+      </div>
       </div>
     );
   }

@@ -1,0 +1,9 @@
+.leaflet-container {
+  height: 350px;
+  width: 80%;
+}
+.containMap{
+display: flex;
+justify-content: center;
+border:1 px solid black;
+}
