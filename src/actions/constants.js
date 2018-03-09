@@ -1,0 +1,1 @@
+export const ADD_STOCK = "@stock - add stock";
