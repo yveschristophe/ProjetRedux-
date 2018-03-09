@@ -11,7 +11,7 @@ class Jumbo extends Component {
   render() {
     return (
       <div className="Jumbo" style={JumboStyle}>
-            <h1 className="TitreResto">Boonk Gom</h1>
+            <h1 className="TitreResto">Boonk Gang</h1>
       </div>
   );
   }
